@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 300px;
+}
+
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 800px;
+    padding: 55px;
+    border-radius: 50%;
+    color: white;
+    gap: 15px;
+}
+
+.display{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+button{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.843);
+    transition: 0.5s;
+}
